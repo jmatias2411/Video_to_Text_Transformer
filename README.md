@@ -22,8 +22,8 @@ Este proyecto utiliza las siguientes bibliotecas de Python:
 Primero, clona este repositorio en tu máquina local:
 
 ```bash
-git clone <https://github.com/tuusuario/nombre-repositorio.git>
-cd nombre-repositorio
+git clone <https://github.com/jmatias2411/Video_to_Text_Transformer.git>
+cd Video_to_Text_Transformer
 
 ```
 
