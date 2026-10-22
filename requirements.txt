@@ -1,0 +1,5 @@
+# Dependencias de Video_to_Text.py
+# Requiere ffmpeg instalado en el sistema (no se instala vía pip).
+moviepy==2.2.1
+SpeechRecognition==3.17.0
+pydub==0.25.1
