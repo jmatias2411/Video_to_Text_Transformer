@@ -1,4 +1,4 @@
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 import speech_recognition as sr
 from pydub import AudioSegment
 
@@ -27,7 +27,7 @@ ruta_salida_audio = "audio.wav"  # Puedes cambiar la ruta del archivo de salida 
 # Convertimos el video a audio
 convertir_video_a_audio(ruta_video, ruta_salida_audio)
 
-audio_path = "/content/audio.wav"
+audio_path = ruta_salida_audio
 
 # Función para dividir el audio en partes más pequeñas
 def dividir_audio_en_segmentos(audio_path, duracion_segmento_ms=60000):
